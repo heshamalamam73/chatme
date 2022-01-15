@@ -1,0 +1,15 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-chatme-dev-212844-authRole",
+      "UnauthRoleArn": "arn:aws:iam::078746803097:role/amplify-chatme-dev-212844-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::078746803097:role/amplify-chatme-dev-212844-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-chatme-dev-212844-deployment",
+      "UnauthRoleName": "amplify-chatme-dev-212844-unauthRole",
+      "StackName": "amplify-chatme-dev-212844",
+      "StackId": "arn:aws:cloudformation:us-east-1:078746803097:stack/amplify-chatme-dev-212844/be392290-7641-11ec-9572-0a83da06f197",
+      "AmplifyAppId": "d6daakfltmbtt"
+    }
+  }
+}
