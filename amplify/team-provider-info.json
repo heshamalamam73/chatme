@@ -10,6 +10,11 @@
       "StackName": "amplify-chatme-dev-212844",
       "StackId": "arn:aws:cloudformation:us-east-1:078746803097:stack/amplify-chatme-dev-212844/be392290-7641-11ec-9572-0a83da06f197",
       "AmplifyAppId": "d6daakfltmbtt"
+    },
+    "categories": {
+      "auth": {
+        "chatme7872d551": {}
+      }
     }
   }
 }

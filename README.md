@@ -44,3 +44,21 @@ select the default branch name
 you will be asked to generate user and gave it some permissions to access and deploy the back end
 after finish will be redirected again into amplify app
 start to deploy this app from console
+
+##Create authentication service
+
+amplify add auth
+
+? Do you want to use the default authentication and security configuration? Default configuration
+? How do you want users to be able to sign in? Username
+? Do you want to configure advanced settings? No, I am done.
+copy
+To deploy the service, run the push command:
+amplify push
+
+## Create login UI
+
+Open src/App.tsx and make the following changes:
+
+import { withAuthenticator } from '@aws-amplify/ui-react'
+Change the default export to be the withAuthenticator wrapping the main component:export default withAuthenticator(App)
