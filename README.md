@@ -70,3 +70,5 @@ Open src/App.tsx and make the following changes:
 
 import { withAuthenticator } from '@aws-amplify/ui-react'
 Change the default export to be the withAuthenticator wrapping the main component:export default withAuthenticator(App)
+
+#
