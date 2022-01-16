@@ -70,3 +70,18 @@ Open src/App.tsx and make the following changes:
 
 import { withAuthenticator } from '@aws-amplify/ui-react'
 Change the default export to be the withAuthenticator wrapping the main component:export default withAuthenticator(App)
+
+##Attention!
+when start deploy the frontend may be sind some error in console for some packages after some search i found the problem in "mini-css-extract-plugin"
+the fix idea was
+
+we should install this package
+npm i -D --save-exact mini-css-extract-plugin@2.4.5
+and in package.json file we should add this line
+"resolutions": {
+"mini-css-extract-plugin": "2.4.5"
+}
+
+after this we can deploy our app without problems ;
+
+### phase 2 customize our sign in and sign out form

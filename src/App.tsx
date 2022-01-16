@@ -1,8 +1,22 @@
-import React from "react";
-import "./App.css";
-import { withAuthenticator } from "aws-amplify-react";
+import React, { useState } from "react";
+import SignIn from "./auth/SignIn";
+import SignOut from "./auth/SignOut";
+import SignUp from "./auth/SignUp";
+
 function App() {
-  return <div className="App">hello world</div>;
+  const [loggedIn, setLoggedIn] = useState(false);
+
+  const onSignIn = () => {
+    setLoggedIn(true);
+  };
+  return (
+    <div className="App">
+      {loggedIn ? "success" : "errorrrr"}
+      <SignUp />
+      <SignIn onSignIn={onSignIn} />
+      <SignOut />
+    </div>
+  );
 }
 
-export default withAuthenticator(App);
+export default App;
