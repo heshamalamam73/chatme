@@ -56,6 +56,14 @@ copy
 To deploy the service, run the push command:
 amplify push
 
+## add amplify configuration
+
+open src/index.tsx
+add these lines in top
+import Amplify from "aws-amplify";
+import awsExports from "./aws-exports";
+Amplify.configure(awsExports);
+
 ## Create login UI
 
 Open src/App.tsx and make the following changes:
