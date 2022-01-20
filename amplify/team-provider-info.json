@@ -9,11 +9,19 @@
       "UnauthRoleName": "amplify-chatme-dev-212844-unauthRole",
       "StackName": "amplify-chatme-dev-212844",
       "StackId": "arn:aws:cloudformation:us-east-1:078746803097:stack/amplify-chatme-dev-212844/be392290-7641-11ec-9572-0a83da06f197",
-      "AmplifyAppId": "d6daakfltmbtt"
+      "AmplifyAppId": "d6daakfltmbtt",
+      "APIGatewayAuthURL": "https://s3.amazonaws.com/amplify-chatme-dev-212844-deployment/amplify-cfn-templates/api/APIGatewayAuthStack.json"
     },
     "categories": {
       "auth": {
-        "chatme7872d551": {}
+        "chatme7872d551": {},
+        "true": {}
+      },
+      "function": {
+        "messagesLombdaFunc": {
+          "deploymentBucketName": "amplify-chatme-dev-212844-deployment",
+          "s3Key": "amplify-builds/messagesLombdaFunc-69563345507854413276-build.zip"
+        }
       }
     }
   }

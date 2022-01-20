@@ -84,4 +84,7 @@ and in package.json file we should add this line
 
 after this we can deploy our app without problems ;
 
+##Install the Amplify CLI
+npm install -g @aws-amplify/cli
+
 ### phase 2 customize our sign in and sign out form

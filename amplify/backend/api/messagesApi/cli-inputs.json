@@ -1,0 +1,21 @@
+{
+  "version": 1,
+  "paths": {
+    "/messages": {
+      "name": "/messages",
+      "lambdaFunction": "messagesLombdaFunc",
+      "permissions": {
+        "setting": "protected",
+        "auth": [
+          "create",
+          "read",
+          "update",
+          "delete"
+        ],
+        "guest": [
+          "read"
+        ]
+      }
+    }
+  }
+}

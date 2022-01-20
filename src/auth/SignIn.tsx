@@ -18,10 +18,11 @@ const SignIn: React.FC<SigninProps> = ({ onSignIn }) => {
   };
   return (
     <div>
+      test test
       <form onSubmit={handleSubmit(handleSignIn)}>
         <input type="text" id="" {...register("username")} />
         <input type="password" id="" {...register("password")} />
-        <button type="submit">SignUp</button>
+        <button type="submit">SignIn</button>
       </form>
     </div>
   );
