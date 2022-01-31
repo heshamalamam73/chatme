@@ -1,27 +1,19 @@
 {
   "dev": {
     "awscloudformation": {
-      "AuthRoleName": "amplify-chatme-dev-212844-authRole",
-      "UnauthRoleArn": "arn:aws:iam::078746803097:role/amplify-chatme-dev-212844-unauthRole",
-      "AuthRoleArn": "arn:aws:iam::078746803097:role/amplify-chatme-dev-212844-authRole",
+      "AuthRoleName": "amplify-mazadcom-dev-203858-authRole",
+      "UnauthRoleArn": "arn:aws:iam::078746803097:role/amplify-mazadcom-dev-203858-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::078746803097:role/amplify-mazadcom-dev-203858-authRole",
       "Region": "us-east-1",
-      "DeploymentBucketName": "amplify-chatme-dev-212844-deployment",
-      "UnauthRoleName": "amplify-chatme-dev-212844-unauthRole",
-      "StackName": "amplify-chatme-dev-212844",
-      "StackId": "arn:aws:cloudformation:us-east-1:078746803097:stack/amplify-chatme-dev-212844/be392290-7641-11ec-9572-0a83da06f197",
-      "AmplifyAppId": "d6daakfltmbtt",
-      "APIGatewayAuthURL": "https://s3.amazonaws.com/amplify-chatme-dev-212844-deployment/amplify-cfn-templates/api/APIGatewayAuthStack.json"
+      "DeploymentBucketName": "amplify-mazadcom-dev-203858-deployment",
+      "UnauthRoleName": "amplify-mazadcom-dev-203858-unauthRole",
+      "StackName": "amplify-mazadcom-dev-203858",
+      "StackId": "arn:aws:cloudformation:us-east-1:078746803097:stack/amplify-mazadcom-dev-203858/1ee01be0-813b-11ec-95f9-1241eaf96d0b",
+      "AmplifyAppId": "d23viwki95ki1k"
     },
     "categories": {
       "auth": {
-        "chatme7872d551": {},
-        "true": {}
-      },
-      "function": {
-        "messagesLombdaFunc": {
-          "deploymentBucketName": "amplify-chatme-dev-212844-deployment",
-          "s3Key": "amplify-builds/messagesLombdaFunc-69563345507854413276-build.zip"
-        }
+        "mazadcom5240a222": {}
       }
     }
   }

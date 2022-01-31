@@ -1,4 +1,5 @@
 import { Auth } from "aws-amplify";
+import { useState } from "react";
 import { useForm } from "react-hook-form";
 
 type SigninProps = {
@@ -10,15 +11,15 @@ const SignIn: React.FC<SigninProps> = ({ onSignIn }) => {
 
   const handleSignIn = async (data: any) => {
     try {
-      const { user } = await Auth.signIn(data);
+      const user = await Auth.signIn(data);
       onSignIn();
+      console.log(user);
     } catch (error) {
       console.log(error, "error singin");
     }
   };
   return (
     <div>
-      test test
       <form onSubmit={handleSubmit(handleSignIn)}>
         <input type="text" id="" {...register("username")} />
         <input type="password" id="" {...register("password")} />
